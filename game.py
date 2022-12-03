@@ -1,6 +1,6 @@
 import random
 mystery = ['apple', 'grape', 'runner', 'mathematics', 'finance', 'sports', 'games', 'code', 'school', 'funny', 'track', 'books', 'amazing', 'iowa', 'is']
-word = random.randint(0,14)
+word = random.randint(0,len(mystery))
 print(f"Your mystery word is {len(mystery[word])} letters")
 guess = 0
 i = 0
