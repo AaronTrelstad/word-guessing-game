@@ -1,2 +1,2 @@
 # Word-Guessing-Game
-Similar to wordle
+Similar to Wordle
