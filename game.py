@@ -32,7 +32,10 @@ for i in range(5):
         for g in range(length):
             for h in range(length):
                 if guess[g] == cword[h]:
-                    sl.append(guess[g])
+                    if guess[g] in sl:
+                        continue
+                    else:
+                        sl.append(guess[g])
                     sim+=1
                     continue
                 else:
